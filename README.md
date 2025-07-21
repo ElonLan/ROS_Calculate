@@ -1,4 +1,4 @@
-# Software System for Calculating ROS Concentration from Probe Concentration Data
+# Software System for Calculating ROS Concentration from Probe Concentration Data Based on ISO 24758-1
 
 A software system for calculating the concentration of Reactive Oxygen Species (ROS) based on probe concentration data and reaction rate constants.
 
