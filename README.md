@@ -2,6 +2,12 @@
 
 A software system for calculating the concentration of Reactive Oxygen Species (ROS) based on probe concentration data and reaction rate constants.
 
+E. Lan, S. Liu,  Fine bubble technology — Evaluation method for determining reactive oxygen species in fine‑bubble dispersions — Part 1: Probe‑based kinetic model (ROS_Calculate software), Version 1.0 [online software]. GitHub, 2025 [viewed 2025‑07‑22].
+
+Available at:
+
+https://github.com/ElonLan/ROS_Calculate
+
 ## Project Overview
 
 This software is designed to quantitatively determine the concentrations of various types of Reactive Oxygen Species (ROS) using a probe analysis method. By employing a multi-probe co-measurement approach, it overcomes the limitation of traditional methods that cannot simultaneously measure multiple ROS types. The software features a user-friendly graphical interface and a powerful calculation engine.
