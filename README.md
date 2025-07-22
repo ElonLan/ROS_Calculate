@@ -176,7 +176,8 @@ Download the latest `ROS_Detection.exe` program and the sample probe concentrati
 **Nanjing Tianqi Advanced Oxidation Technology Co., Ltd.**  
 [www.tqcy.top](http://www.tqcy.top)
 
-Software created by Elon Lan
+Software created by 
+Elon Lan And Liu Shu
 
 ### Contact Me
 - lanqq8@gmail.com
