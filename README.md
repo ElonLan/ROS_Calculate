@@ -183,8 +183,9 @@ Download the latest `ROS_Detection.exe` program and the sample probe concentrati
 [www.tqcy.top](http://www.tqcy.top)
 
 Software created by 
-Elon Lan And Liu Shu
+Elon LAN And Shu LIU
 
 ### Contact Me
 - lanqq8@gmail.com
+- liushu@buaa.edu.cn
 - lanqq8@tqcy.top
