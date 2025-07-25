@@ -120,27 +120,27 @@ E. Lan, S. Liu,  细气泡技术 — 细气泡分散体中活性氧的测定�
 
 探针与ROS的反应速率方程为：
 
-−dtd[Probe]​=∑i​ki​[Probe][ROSi​]
+$-\frac{d[Probe]}{dt} = \sum_i k_i[Probe][ROS_i]$
 
 **积分处理：**
 
 对该方程进行积分，得到：
 
-ln([Probe]0​[Probe]t​​)=∑i​ki​⋅∫0t​[ROSi​]dt
+$\ln\left(\frac{[Probe]_t}{[Probe]_0}\right) = \sum_i k_i \cdot \int_0^t [ROS_i] dt$
 
-其中 ∫0t​[ROSi​]dt 表示 ROSi​ 从时间0到t的累积浓度。
+其中 $\int_0^t [ROS_i] dt$ 表示 $ROS_i$​ 从时间0到t的累积浓度。
 
 **矩阵表示：**
 
 构建线性方程组：
 
-A×x=b
+$A \times x = b$
 
 - A: 反应速率常数矩阵 (n×m)
     
 - x: 未知的ROS累积浓度向量 (m×1)
     
-- b: 探针浓度变化向量 (n×1)，其中每个元素为 ln([Probe]0​[Probe]t​​)
+- b: 探针浓度变化向量 (n×1)，其中每个元素为 $\ln\left(\frac{[Probe]_t}{[Probe]_0}\right)$
     
 
 ### 求解方法
@@ -151,13 +151,12 @@ A×x=b
     
     当探针数量等于ROS种类数量时，方程组有唯一解，可通过矩阵求逆直接求解：
     
-    x=A−1×b
+   $x = A^{-1} \times b$
     
 2. 超定分析 (n>m):
     
     当探针数量大于ROS种类数量时，采用最小二乘法求解：
-    
-    x=(AT×A)−1×AT×b
+   $x = (A^T \times A)^{-1} \times A^T \times b$
     
     此方法可以减少实验误差的影响，提高计算精度。
     
